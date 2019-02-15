@@ -1,6 +1,6 @@
 
-/**
- * Inserts a menu on open
+/*
+  Inserts  menu on open
  */
 function onOpen() {
   var menu = [{name: 'Set up Courses', functionName: 'setUpConference_'}];
@@ -8,7 +8,7 @@ function onOpen() {
 }
 
 /**
- * A set-up function that uses the conference data in the spreadsheet to create
+ * A set-up function that uses the data in the spreadsheet to create
  * Google Calendar events, a Google Form, and a trigger that allows the script
  * to react to form responses.
  */
@@ -159,7 +159,7 @@ function sendInvites_(user, response) {
 }
 
 /**
- * Create and share a personalized Google Doc that each user's signups.
+ * Create and share a personalized Google Doc with each user's signups.
  *
  * @param {Object} user An object that contains the user's name and email.
  * @param {String[][]} response An array of data for the user's session choices.
